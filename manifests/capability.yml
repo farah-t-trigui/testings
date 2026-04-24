@@ -108,7 +108,7 @@ spec:
     consumes:
       - type: http
         namespace: open-meteo
-        baseUri: "https://api.open-meteo.com/v1/"
+        baseUri: "https://api.open-meteo.com/v1"
         resources:
           - name: forecast
             path: forecast
