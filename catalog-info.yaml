@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hhh
+  description: Composant hhh créé via Backstage
+  tags:
+    - naftiko
+    - capability
+  links:
+    - url: https://github.com/farah-t-trigui/testings
+      title: Voir les fichiers du dépôt
+      icon: github
+  annotations:
+    backstage.io/source-location: url:https://github.com/farah-t-trigui/testings/blob/main/
+    github.com/project-slug: farah-t-trigui/testings
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
+  
